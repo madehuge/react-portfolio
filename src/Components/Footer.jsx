@@ -1,6 +1,39 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 export default function Footer() {
+  useEffect(() => {
+    const scripts = [
+      'jQuery.js',
+      'jquery.appear.js',
+      'bootstrap.js',
+      'jquery.animatedheadline.js',
+      'particles.js',
+      'particles_shape_light.js',
+      'swiper.js',
+      'wow.js',
+      'odometer.js',
+      'mixitup.js',
+      'fancybox.umd.js',
+      'main.js'
+    ];
+
+    scripts.forEach(src => {
+      const script = document.createElement('script');
+      script.src = `/js/${src}`; // Adjust path if needed
+      script.async = false;
+      document.body.appendChild(script);
+    });
+
+    // Optional: Cleanup when component unmounts
+    return () => {
+      scripts.forEach(src => {
+        ///js/${src}
+        const found = document.querySelector(`script[src="/js/${src}"]`);
+        if (found) found.remove();
+      });
+    };
+  }, []);
+
   return (
     <>
       <footer>

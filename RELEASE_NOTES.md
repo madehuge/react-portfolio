@@ -1,7 +1,7 @@
 # 📦 Release Notes
 
 **Project:** Portfolio App  
-**Version:** v0.0.0  
+**Version:** v1.0.0  
 **Release Date:** July 22, 2025  
 **Status:** Initial Development Release
 

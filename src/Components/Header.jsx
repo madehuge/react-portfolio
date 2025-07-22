@@ -6,8 +6,8 @@ export default function Header() {
       <header className="header-sliding">
         <nav className="navbar w-100 navbar-expand-lg">
           <div className="container">
-            <a className="navbar-brand logo p-0" href="index_4.html">
-              Tona
+            <a className="navbar-brand logo p-0" href="/">
+              Mr. Jangir
             </a>
             <button
               className="navbar-toggler menu-toggle-btn"
