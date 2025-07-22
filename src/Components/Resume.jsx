@@ -20,28 +20,34 @@ export default function Resume() {
 
                 <div className="wow fadeInLeft res-text">
                   <span className="res-circle"></span>
-                  <h4>Web Developer</h4>
-                  <span className="date">2009 - 2013</span>
+                  <h4>Sr. WordPress Developer / Sr. Software Engineer </h4>
+                  <span className="date">AgreeYa Solutions India Pvt. ltd. (July 2023 - May 2025)</span>
                   <p className="info">
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+                    Contributed to internal and external enterprise applications, including QuickApps, Quest Recovery Manager, and custom modules for SharePoint-based solutions.  
+                    Designed and integrated REST APIs to support cross-platform functionality and seamless communication between services.  
+                    Worked closely with the USA-based product team in a collaborative MNC environment, ensuring timely delivery and global support alignment.
                   </p>
                 </div>
 
                 <div className="wow fadeInLeft res-text" data-wow-delay="0.2s">
                   <span className="res-circle"></span>
-                  <h4>Mobile Developer</h4>
-                  <span className="date">2014 - 2018</span>
+                  <h4>PHP - Technical Lead (LAMP, AWS, WordPress)</h4>
+                  <span className="date">OneClick IT Consultancy Pvt. ltd. (Jan 2022 - Jun 2023)</span>
                   <p className="info">
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+                    Led end-to-end architecture and development of scalable web applications using LAMP, React, and Node.js.  
+                    Deployed and managed cloud infrastructure on AWS (EC2, S3, RDS, ALB, Lambda) to ensure high availability and performance.  
+                    Mentored cross-functional teams, defined coding standards, and drove agile delivery for enterprise-grade solutions.
                   </p>
                 </div>
 
                 <div className="wow fadeInLeft res-text" data-wow-delay="0.4s">
                   <span className="res-circle"></span>
-                  <h4>IT Developer</h4>
-                  <span className="date">2019 - 2021</span>
-                  <p className="info">
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+                  <h4>Sr. Web Developer </h4>
+                  <span className="date">Magnious Solutions Pvt. Ltd. (Jan 2016 - Dec 2021)</span>
+                 <p className="info">
+                    Worked on a variety of projects ranging from custom WordPress websites to full-fledged CRM platforms.  
+                    Integrated and consumed REST APIs for dynamic content and third-party service communication.  
+                    Contributed to both frontend and backend development, ensuring responsive design and robust functionality.
                   </p>
                 </div>
               </div>
@@ -58,28 +64,31 @@ export default function Resume() {
                 <div className="wow fadeInLeft res-text" data-wow-delay="0.1s">
                   <span className="res-circle"></span>
                   <h4>Bachelor's degree in Computer Science</h4>
-                  <span className="date">2008</span>
+                  <span className="date">SBCET-Rajasthan Technical University (2013)</span>
                   <p className="info">
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+                    Earned B.Tech (Honors) in 2013 from SBCET Jaipur, affiliated with Rajasthan Technical University (RTU), Kota.
                   </p>
                 </div>
 
                 <div className="wow fadeInLeft res-text" data-wow-delay="0.3s">
                   <span className="res-circle"></span>
-                  <h4>Mobile development online certificate</h4>
-                  <span className="date">2013</span>
-                  <p className="info">
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-                  </p>
+                  <h4>GenAI online certificate</h4>
+                  <span className="date">Jatan Shah - 2024</span>
+                 
                 </div>
 
                 <div className="wow fadeInLeft res-text" data-wow-delay="0.5s">
                   <span className="res-circle"></span>
-                  <h4>Cyber Security online certificate</h4>
-                  <span className="date">2018</span>
-                  <p className="info">
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-                  </p>
+                  <h4>MERN Stack online certificate</h4>
+                  <span className="date">UpskillsMafia - 2024</span>
+                  
+                </div>
+
+                <div className="wow fadeInLeft res-text" data-wow-delay="0.5s">
+                  <span className="res-circle"></span>
+                  <h4>React.JS online certificate</h4>
+                  <span className="date">ICTRD (Indian Council For Technical Research And Development) - 2025</span>
+                  
                 </div>
               </div>
             </div>
