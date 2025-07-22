@@ -6,6 +6,7 @@
     File Description : Main javascript file of the template
 */
 
+
 $(document).ready(function () {
 
     // Scrolling Animations
