@@ -34,15 +34,19 @@ export default function Footer() {
     };
   }, []);
 
+  const currentYear = new Date().getFullYear();
+
   return (
     <>
       <footer>
         <div className="container position-relative d-flex flex-column flex-md-row align-items-center justify-content-between">
-          <p className="copy mb-2 mb-md-0">&copy; 2021 Tona, All Right Reserved</p>
+         <p className="copy mb-2 mb-md-0">
+            <small>&copy; {currentYear} Manish Jangir. All rights reserved.</small>
+          </p>
           <div className="addition-links">
-            <a href="#">Privacy Policy</a>
-            <span></span>
-            <a href="#">Terms &amp; Conditions</a>
+            <a href="#">Privacy Policy </a> 
+             <span></span>
+            <a href="#"> Terms &amp; Conditions</a>
           </div>
           <a className="scroll-top" href="#">
             <i className="fas fa-angle-up"></i>
