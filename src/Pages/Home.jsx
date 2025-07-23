@@ -7,12 +7,13 @@ import Services from '../Components/Services'
 import Resume from '../Components/Resume'  
 import Portfolio from '../Components/Portfolio'
 import Skills from '../Components/Skills'
-import Reviews from '../Components/Reviews'    
+//import Reviews from '../Components/Reviews'    
 import Contact from '../Components/Contact'
 import Blog from '../Components/Blog'
 import Footer from '../Components/Footer'
 import FooterCursor from '../Components/FooterCursor'
 import useMetaTagsHooks from '../Hooks/useMetaTagsHooks';
+import Counters from '../Components/Counters';
 
 
 
@@ -32,8 +33,10 @@ export default function Home() {
       <Services />
       <Resume />
       <Portfolio />
+      <Counters />
       <Skills />
-      <Reviews />
+     
+      {/* <Reviews /> */}
       <Blog />
       <Contact />
       <Footer />

@@ -44,9 +44,10 @@ export default function Footer() {
             <small>&copy; {currentYear} Manish Jangir. All rights reserved.</small>
           </p>
           <div className="addition-links">
-            <a href="#">Privacy Policy </a> 
-             <span></span>
-            <a href="#"> Terms &amp; Conditions</a>
+            {/* <a href="#">Privacy Policy </a>  */}
+             {/* <span></span> */}
+            {/* <a href="#"> Terms &amp; Conditions</a> */}
+            <p className='copy mb-2 mb-md-0'>Thank you for your visit.</p>
           </div>
           <a className="scroll-top" href="#">
             <i className="fas fa-angle-up"></i>
