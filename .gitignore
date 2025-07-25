@@ -7,10 +7,23 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependency directory
 node_modules
+
+# Production build
 dist
 dist-ssr
+
+# Local environment files
 *.local
+.env
+.env.*.local
+
+# Jest testing artifacts
+coverage/
+jest-cache/
+jest-config.json
+*.test.log
 
 # Editor directories and files
 .vscode/*
